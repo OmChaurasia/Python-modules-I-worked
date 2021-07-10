@@ -1,0 +1,5 @@
+print("enter the number\n"*5)
+num1=input()
+num2=input()
+print("the sum is", int(num1)+int(num2))
+print("the multiplication is", int(num1)*int(num2))
