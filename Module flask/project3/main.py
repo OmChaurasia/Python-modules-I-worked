@@ -4,7 +4,8 @@ from flask import Flask, render_template, request
 
 def marks(enroll):
 
-    url=f"http://result.bteupexam.in/odd_result/main/oddresult.aspx?Roll_no={enroll}"
+    # url=f"http://result.bteupexam.in/odd_result/main/oddresult.aspx?Roll_no={enroll}"
+    url=f"http://result.bteevaluation.co.in/Odd_Semester/main/result.aspx?Roll_no={enroll}"
     # print(url)
     r= requests.get(url)
     htmlcontent= r.content
